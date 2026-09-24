@@ -15,9 +15,9 @@ export interface DateFormat {
 }
 
 // Site-wide configuration.
-export const SITE_TITLE = "Astro ʕ•ᴥ•ʔ Bear Blog";
-export const SITE_DESCRIPTION = "A small, plain blog built with Astro.";
-export const SITE_URL = "https://astro-bearblog.harleyjwilson.workers.dev/";
+export const SITE_TITLE = "Mirthamancers' Archive";
+export const SITE_DESCRIPTION = "Mirthamancy: The magic of joy";
+export const SITE_URL = "https://mirthamancer.net/";
 export const SITE_LANG = "en";
 
 export const DATE_FORMAT: DateFormat = {
@@ -33,7 +33,7 @@ export const CUSTOM_STYLESHEET: string | undefined = undefined;
 // Add navigation and footer links here without editing components.
 export const NAV_ITEMS: LinkItem[] = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about/" },
+  // { label: "About", href: "/about/" },
   { label: "Blog", href: "/blog/" },
 ];
 export const FOOTER_ITEMS: FooterItem[] = [
